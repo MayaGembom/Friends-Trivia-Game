@@ -13,6 +13,8 @@
 		D6622E9228392FC200C887ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6622E9028392FC200C887ED /* Main.storyboard */; };
 		D6622E9428392FC400C887ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6622E9328392FC400C887ED /* Assets.xcassets */; };
 		D6622E9728392FC400C887ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6622E9528392FC400C887ED /* LaunchScreen.storyboard */; };
+		D6FA9C40283A1CF10032A38D /* JsonObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FA9C3F283A1CF10032A38D /* JsonObjects.swift */; };
+		D6FA9C42283A1D5B0032A38D /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FA9C41283A1D5B0032A38D /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D6622E9328392FC400C887ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6622E9628392FC400C887ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6622E9828392FC400C887ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6FA9C3F283A1CF10032A38D /* JsonObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonObjects.swift; sourceTree = "<group>"; };
+		D6FA9C41283A1D5B0032A38D /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				D6622E9328392FC400C887ED /* Assets.xcassets */,
 				D6622E9528392FC400C887ED /* LaunchScreen.storyboard */,
 				D6622E9828392FC400C887ED /* Info.plist */,
+				D6FA9C41283A1D5B0032A38D /* DataManager.swift */,
+				D6FA9C3F283A1CF10032A38D /* JsonObjects.swift */,
 			);
 			path = "Friends-Trivia-Game";
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6FA9C40283A1CF10032A38D /* JsonObjects.swift in Sources */,
+				D6FA9C42283A1D5B0032A38D /* DataManager.swift in Sources */,
 				D6622E8F28392FC200C887ED /* ViewController.swift in Sources */,
 				D6622E8B28392FC200C887ED /* AppDelegate.swift in Sources */,
 				D6622E8D28392FC200C887ED /* SceneDelegate.swift in Sources */,
